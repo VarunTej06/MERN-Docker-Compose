@@ -12,7 +12,7 @@ Docker-Compose
 ## Clone the Project
 Clone the repo using Git Clone Command and change the pwd to the root directory of this project.
 
-# Using Docker 
+# 1. Using Docker 
 
 ### Create a network for the docker containers
 
@@ -52,7 +52,7 @@ docker build -t mern-backend .
 Creating Backend Container along with Port mapping and networking
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
-# Using Docker Compose
+# 2. Using Docker Compose
 Instead of doing all the above steps, we can run the Project directly with just one command if we have docker compose installed. 
 
 `docker compose up -d`
