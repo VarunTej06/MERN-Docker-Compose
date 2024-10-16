@@ -50,6 +50,7 @@ docker build -t mern-backend .
 
 ### Run the server
 Creating Backend Container along with Port mapping and networking
+
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
 # 2. Using Docker Compose
